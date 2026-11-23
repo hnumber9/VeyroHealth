@@ -1,0 +1,1 @@
+ALTER TABLE public.calendly_connections ADD CONSTRAINT calendly_connections_user_id_key UNIQUE (user_id);

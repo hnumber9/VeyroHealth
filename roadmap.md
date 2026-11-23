@@ -1,0 +1,23 @@
+# Roadmap
+
+- [x] Condition pages: exact-speciality therapist cards only (max 6), empty-state message, separate broader-support section — 22 SEO tests passed; six audited pages checked in preview.
+- [x] Five consolidated-page 301 redirects — live returns 301 to the retained pages.
+- [x] FAQ links: CSV import keeps HTML/Markdown links clickable; FAQ structured data now uses plain visible text — needs publish.
+- [x] Technical SEO check of 119 live pages — all 200, self-canonical, no noindex.
+- [x] Confirm automatic SEO metadata and add WebPage/Organisation structured data across condition pages — canonical identity tested for individual CSV pages; latest build passed.
+- [x] Add therapist_section_heading to CSV, editing, preview and public pages with existing-heading fallback — 12 tests passed.
+- [ ] Verify SEO CSV import/save/preview end-to-end — current testing account has no admin access; no published condition page was available in the preview sitemap.
+- [x] Rename professional title to Therapy approach and add editor-provided SEO recommendations, CSV support and clinical review preservation — 10 tests passed; admin visual check unavailable because the current testing account is not an admin.
+- [x] Produce an updated PDF covering all four proposed patient safeguards — both pages visually checked with no clipping or overlap.
+- [ ] Verified email and mobile before booking — implementation pending verification-service setup and rollout decision for existing patients.
+- [x] Produce a shareable PDF plan for booking verification — one-page branded plan visually checked.
+- [x] Fix rejecting approved therapists and add admin-controlled profile show/hide for testing — four action tests passed; Sophie's hide/show verified after refresh, original shown status restored.
+- [x] Automatic post-session review reminder — Inngest connected, workflow and email implemented; timing and skip rules tested
+- [ ] Activate and test a real delayed review reminder — requires publication and Inngest app sync at https://veyrohealth.com/api/public/inngest
+- [x] SEO landing pages (self-managed)
+- [x] Therapist search sort
+- [x] Footer social icons — Facebook, Instagram and LinkedIn links added
+- [x] Homepage buttons, free-session filter and click tracking
+- [x] Timed matching enquiry popup with mandatory consent and delivery to Sam
+- [x] Four supplied SEO pages — draft missing content and save unpublished for review
+- [x] /partners page (8 sections, hosted intro video, enquiry form → support@ + Admin → Partner enquiries with campaign tracking) — browser-tested submit, email sent.

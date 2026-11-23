@@ -1,0 +1,1 @@
+DELETE FROM public.therapist_profiles WHERE id IN ('f535448d-d1dc-4885-b46b-8775f414fed6','a5abc0e6-0205-4c98-95f5-c0edafc91c5f');

@@ -1,0 +1,2 @@
+ALTER TABLE public.seo_pages ADD COLUMN therapy_approaches text[] NOT NULL DEFAULT '{}';
+COMMENT ON COLUMN public.seo_pages.therapy_approaches IS 'Editor-selected recommended therapy approaches; reviewed through the existing clinical approval workflow.';

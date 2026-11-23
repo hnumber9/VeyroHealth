@@ -1,0 +1,2 @@
+ALTER TABLE public.seo_pages ADD COLUMN therapist_section_heading text NOT NULL DEFAULT '';
+COMMENT ON COLUMN public.seo_pages.therapist_section_heading IS 'Optional editor-provided therapist listing heading; empty values retain the generated heading.';

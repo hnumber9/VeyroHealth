@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /client/
+Disallow: /therapist/dashboard
+Disallow: /therapist/onboarding
+Disallow: /reset-password
+Disallow: /home-to-be
+Disallow: /signup-to-be
+Disallow: /dashboard-to-be
+
+Sitemap: https://veyrohealth.com/sitemap.xml

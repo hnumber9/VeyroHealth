@@ -1,0 +1,2 @@
+SELECT pgmq.delete('transactional_emails', ARRAY[370,371]::bigint[]);
+UPDATE public.email_send_log SET status='failed', error_message='superseded by manual resend' WHERE status='pending' AND created_at > now() - interval '30 minutes';

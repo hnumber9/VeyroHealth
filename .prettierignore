@@ -1,0 +1,17 @@
+node_modules
+dist
+.output
+.vinxi
+pnpm-lock.yaml
+package-lock.json
+bun.lock
+routeTree.gen.ts
+tsconfig.tsbuildinfo
+.lovable
+.tanstack
+.wrangler
+# Generated / platform-managed files
+src/integrations/supabase
+supabase
+drizzle/migrations
+public

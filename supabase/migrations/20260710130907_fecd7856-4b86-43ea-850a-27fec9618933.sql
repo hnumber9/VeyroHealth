@@ -1,0 +1,1 @@
+DELETE FROM public.profiles WHERE user_id = '8ec58f69-532c-45e2-b34b-930c518e09b8'; DELETE FROM public.user_roles WHERE user_id = '8ec58f69-532c-45e2-b34b-930c518e09b8'; DELETE FROM public.therapist_profiles WHERE user_id = '8ec58f69-532c-45e2-b34b-930c518e09b8'; DELETE FROM auth.users WHERE id = '8ec58f69-532c-45e2-b34b-930c518e09b8';
